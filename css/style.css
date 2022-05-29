@@ -1,0 +1,37 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+	margin-bottom: 50px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p{
+
+	font-weight: 400px;
+}
+
+h1,h2,h3{
+	font-weight: 600px;
+}
